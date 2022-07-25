@@ -11,16 +11,16 @@ function Product10({ id, title, color, potencia, price, image }) {
                 <Box ml={4}>
                     <SimpleGrid spacing={4} columns={5}>
                         <GridItem colSpan={1}>
-                            <Image src="https://i.imgur.com/k4PcEsi.png"/>
+                            <Image src="https://i.imgur.com/g2jIKoT.png"/>
                         </GridItem>
                         <GridItem>
                             <Stack spacing={4}>
                                 <Box>
-                                    <Heading>Precio: $50</Heading>
-                                    <Tag mt={2} >Color: Azul</Tag>
+                                    <Heading>Precio: $100</Heading>
+                                    <Tag mt={2} >Color: Amarillo</Tag>
                                 </Box>
-                                <Text>Carta de Fuego</Text>
-                                <Text>Potencia: 3</Text>
+                                <Text as="i">Firefigter.</Text>
+                                <Text>Tipo: Agua, Potencia: 10.</Text>
                                 <HStack>
                                     <Button w="xs" size="sm" colorScheme="green">
                                         Compra Puta!

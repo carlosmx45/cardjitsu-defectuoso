@@ -14,6 +14,7 @@ import Product8 from './Components/Product/Product8';
 import Product9 from './Components/Product/Product9';
 import Product10 from './Components/Product/Product10';
 import Product11 from './Components/Product/Product11';
+import Product12 from './Components/Product/Product12';
 import Contact from './Components/Contact/Contact';
 import Notes from './Components/Notes/Notes';
 import Error404 from './Components/Error/404';
@@ -43,6 +44,7 @@ const AppRoutes = () => (
             <Route path='/product/9' element={<Product9/>} />
             <Route path='/product/10' element={<Product10/>} />
             <Route path='/product/11' element={<Product11/>} />
+            <Route path='/product/12' element={<Product12/>} />
         </Routes>
     </App>
 )

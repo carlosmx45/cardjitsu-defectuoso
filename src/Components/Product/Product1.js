@@ -16,11 +16,11 @@ function Product1({ id, title, color, potencia, price, image }) {
                         <GridItem>
                             <Stack spacing={4}>
                                 <Box>
-                                    <Heading>Precio: $50</Heading>
+                                    <Heading>Precio: $30</Heading>
                                     <Tag mt={2} >Color: Azul</Tag>
                                 </Box>
-                                <Text>Carta de Fuego</Text>
-                                <Text>Potencia: 3</Text>
+                                <Text as="i">Cart Surfer.</Text>
+                                <Text>Tipo: Fuego, Potencia: 3.</Text>
                                 <HStack>
                                     <Button w="xs" size="sm" colorScheme="green">
                                         Compra Puta!

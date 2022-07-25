@@ -11,7 +11,7 @@ function Product9({ id, title, color, potencia, price, image }) {
                 <Box ml={4}>
                     <SimpleGrid spacing={4} columns={5}>
                         <GridItem colSpan={1}>
-                            <Image src="https://i.imgur.com/k4PcEsi.png"/>
+                            <Image src="https://i.imgur.com/Fovn0Zh.png"/>
                         </GridItem>
                         <GridItem>
                             <Stack spacing={4}>
@@ -19,8 +19,8 @@ function Product9({ id, title, color, potencia, price, image }) {
                                     <Heading>Precio: $50</Heading>
                                     <Tag mt={2} >Color: Azul</Tag>
                                 </Box>
-                                <Text>Carta de Fuego</Text>
-                                <Text>Potencia: 3</Text>
+                                <Text as="i">FootBall.</Text>
+                                <Text>Tipo: Agua, Potencia: 5.</Text>
                                 <HStack>
                                     <Button w="xs" size="sm" colorScheme="green">
                                         Compra Puta!

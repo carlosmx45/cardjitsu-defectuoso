@@ -3,7 +3,7 @@ import { Box, Button, Flex, Center, Heading, Input, Spacer, Stack, Text, Tag, Si
 import { Link, state} from 'react-router-dom';
 import Header from "../Header.js";
 
-function Product3({ id, title, color, potencia, price, image }) {
+function Product12({ id, title, color, potencia, price, image }) {
     return (
         <Box>
             <Header title="Card-jitsu.Online"/>
@@ -11,16 +11,16 @@ function Product3({ id, title, color, potencia, price, image }) {
                 <Box ml={4}>
                     <SimpleGrid spacing={4} columns={5}>
                         <GridItem colSpan={1}>
-                            <Image src="https://i.imgur.com/YW85vmO.png"/>
+                            <Image src="https://i.imgur.com/roz8OrN.png"/>
                         </GridItem>
                         <GridItem>
                             <Stack spacing={4}>
                                 <Box>
-                                    <Heading>Precio: $20</Heading>
-                                    <Tag mt={2} >Color: Amarillo</Tag>
+                                    <Heading>Precio: $450</Heading>
+                                    <Tag mt={2} >Color: Azul</Tag>
                                 </Box>
-                                <Text as="i">Construction Worker.</Text>
-                                <Text>Tipo: Fuego, Potencia: 2.</Text>
+                                <Text as="i">Edicion especial de CMX45.</Text>
+                                <Text>Tipo: Fuego, Potencia: 45.</Text>
                                 <HStack>
                                     <Button w="xs" size="sm" colorScheme="green">
                                         Compra Puta!
@@ -39,4 +39,4 @@ function Product3({ id, title, color, potencia, price, image }) {
 }
 
 
-export default Product3;
+export default Product12;

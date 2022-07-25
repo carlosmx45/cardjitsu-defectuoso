@@ -17,7 +17,7 @@ const StoreItem = ({ id, title, elemento, color, potencia, price, image }) => {
             </Heading>
             <Text>Tipo: {elemento}, Color: {color}.</Text>
             <Text>Potencia: {potencia}.</Text>
-            <Tag mt={4}>${price}</Tag> <Tag mt={4}>Comprar</Tag>
+            <Tag mt={4}>${price}</Tag> <Tag mt={4}>Disponible</Tag>
         </Box>
     );
 };
