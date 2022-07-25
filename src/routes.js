@@ -17,7 +17,18 @@ import Product11 from './Components/Product/Product11';
 import Product12 from './Components/Product/Product12';
 import Contact from './Components/Contact/Contact';
 import Notes from './Components/Notes/Notes';
-import Gracias from './Components/Product/gracias';
+import Gracias1 from './Components/Product/gracias/gracias1';
+import Gracias2 from './Components/Product/gracias/gracias2';
+import Gracias3 from './Components/Product/gracias/gracias3';
+import Gracias4 from './Components/Product/gracias/gracias4';
+import Gracias5 from './Components/Product/gracias/gracias5';
+import Gracias6 from './Components/Product/gracias/gracias6';
+import Gracias7 from './Components/Product/gracias/gracias7';
+import Gracias8 from './Components/Product/gracias/gracias8';
+import Gracias9 from './Components/Product/gracias/gracias9';
+import Gracias10 from './Components/Product/gracias/gracias10';
+import Gracias11 from './Components/Product/gracias/gracias11';
+import Gracias12 from './Components/Product/gracias/gracias12';
 import Error404 from './Components/Error/404';
 
 import axios from "axios";
@@ -34,7 +45,19 @@ const AppRoutes = () => (
             <Route path='*' element={<Error404 />} />
             {/*<Route path='/product' element={<Product />} />*/}
             {/*<Route path='/product/:id' element={props => <Product {...props} />} />*/}
-            <Route path='/product/end' element={<Gracias/>} />
+            <Route path='/product/end1' element={<Gracias1/>} />
+            <Route path='/product/end2' element={<Gracias2/>} />
+            <Route path='/product/end3' element={<Gracias3/>} />
+            <Route path='/product/end4' element={<Gracias4/>} />
+            <Route path='/product/end5' element={<Gracias5/>} />
+            <Route path='/product/end6' element={<Gracias6/>} />
+            <Route path='/product/end7' element={<Gracias7/>} />
+            <Route path='/product/end8' element={<Gracias8/>} />
+            <Route path='/product/end9' element={<Gracias9/>} />
+            <Route path='/product/end10' element={<Gracias10/>} />
+            <Route path='/product/end11' element={<Gracias11/>} />
+            <Route path='/product/end12' element={<Gracias12/>} />
+
             <Route path='/product/1' element={<Product1/>} />
             <Route path='/product/2' element={<Product2/>} />
             <Route path='/product/3' element={<Product3/>} />

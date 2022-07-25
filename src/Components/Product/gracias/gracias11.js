@@ -1,8 +1,7 @@
 import React from 'react';
 import { Box, Button, Flex, Center, Heading, Input, Spacer, Stack, Text, Tag, SimpleGrid, GridItem, Image, Spinner } from "@chakra-ui/react";
-import cartaFuegoAzul3 from '../cards/cartaFuegoAzul3.png';
 
-function Gracias(props) {
+function Gracias1(props) {
     return (
         <Box>
             <Heading>Gracias por su Compra</Heading>
@@ -22,4 +21,4 @@ function Gracias(props) {
     );
 }
 
-export default Gracias;
+export default Gracias1;
