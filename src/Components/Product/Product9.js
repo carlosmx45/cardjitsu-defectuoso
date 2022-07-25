@@ -3,7 +3,7 @@ import { Box, Button, Flex, Center, Heading, Input, Spacer, Stack, Text, Tag, Si
 import { Link, state} from 'react-router-dom';
 import Header from "../Header.js";
 
-function Product1({ id, title, color, potencia, price, image }) {
+function Product9({ id, title, color, potencia, price, image }) {
     return (
         <Box>
             <Header title="Card-jitsu.Online"/>
@@ -39,4 +39,4 @@ function Product1({ id, title, color, potencia, price, image }) {
 }
 
 
-export default Product1;
+export default Product9;

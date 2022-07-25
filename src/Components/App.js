@@ -10,6 +10,7 @@ import {element} from 'prop-types';
 function App(props) {
   return (
     <div className="App">
+      <Header />
       <Content >
         {props.children}
       </Content>

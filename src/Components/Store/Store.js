@@ -6,15 +6,16 @@ import { Link, state} from 'react-router-dom';
 import axios from "axios";
 
 //Muestra de Items
-const StoreItem = ({ id, title, color, potencia, price, image }) => {
+const StoreItem = ({ id, title, elemento, color, potencia, price, image }) => {
     return (
         <Box p={4} borderRadius="lg" borderWidth="1px">
             <Center>
                 <Image src={image} h="sm" />
             </Center>
             <Heading noOfLines={2} size="sm" fontWeight="normal">
-                {title}, Color: {color}.
+                {title}.
             </Heading>
+            <Text>Tipo: {elemento}, Color: {color}.</Text>
             <Text>Potencia: {potencia}.</Text>
             <Tag mt={4}>${price}</Tag> <Tag mt={4}>Comprar</Tag>
         </Box>
@@ -51,7 +52,7 @@ function Store({  }) {
                     <Input
                         onChange={(e) => {
                             let f = items.filter((item) => 
-                                item.title.toLowerCase().includes(e.target.value.toLowerCase())
+                                item.color.toLowerCase().includes(e.target.value.toLowerCase())
                             );
                             setFilteredItems(f);
                         }} 
