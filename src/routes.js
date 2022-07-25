@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import App from './Components/App';
 import Store from './Components/Store/Store';
-import Product from './Components/Product/Product';
+import About from './Components/About/About';
 import Product1 from './Components/Product/Product1';
 import Product2 from './Components/Product/Product2';
 import Product3 from './Components/Product/Product3';
@@ -26,12 +26,12 @@ const AppRoutes = () => (
     <App>
         <Routes>
             <Route path='/' element={<Store />} />
-            <Route path='/about' element={<Product />} />
+            <Route path='/about' element={<About />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='/notes' element={<Notes />} />
             <Route path='/notes/:noteId' element={<Notes />} />
             <Route path='*' element={<Error404 />} />
-            <Route path='/product' element={<Product />} />
+            {/*<Route path='/product' element={<Product />} />*/}
             {/*<Route path='/product/:id' element={props => <Product {...props} />} />*/}
             <Route path='/product/1' element={<Product1/>} />
             <Route path='/product/2' element={<Product2/>} />

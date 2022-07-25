@@ -18,6 +18,7 @@ const Header = (props) => {
                 <div className="App-Routes">
                     <Button><a href="/" className="Text">Home</a></Button>
                     <Button><a href="/contact" className="Text">Contacto</a></Button>
+                    <Button><a href="/about" className="Text">Informacion</a></Button>
                 </div>
                 </Center>
             </a>
