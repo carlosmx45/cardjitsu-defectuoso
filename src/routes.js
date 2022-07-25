@@ -17,6 +17,7 @@ import Product11 from './Components/Product/Product11';
 import Product12 from './Components/Product/Product12';
 import Contact from './Components/Contact/Contact';
 import Notes from './Components/Notes/Notes';
+import Gracias from './Components/Product/gracias';
 import Error404 from './Components/Error/404';
 
 import axios from "axios";
@@ -33,6 +34,7 @@ const AppRoutes = () => (
             <Route path='*' element={<Error404 />} />
             {/*<Route path='/product' element={<Product />} />*/}
             {/*<Route path='/product/:id' element={props => <Product {...props} />} />*/}
+            <Route path='/product/end' element={<Gracias/>} />
             <Route path='/product/1' element={<Product1/>} />
             <Route path='/product/2' element={<Product2/>} />
             <Route path='/product/3' element={<Product3/>} />

@@ -22,9 +22,7 @@ function Product7({ id, title, color, potencia, price, image }) {
                                 <Text as="i">BaseBall.</Text>
                                 <Text>Tipo: Agua, Potencia: 2.</Text>
                                 <HStack>
-                                    <Button w="xs" size="sm" colorScheme="green">
-                                        Compra Puta!
-                                    </Button>
+                                    <Button w="xs" size="sm" colorScheme="green"><a href="/product/end" className="Text">Comprar Ahora</a></Button>
                                     <Button w="xs" size="sm">
                                         Comparte Puta!
                                     </Button>

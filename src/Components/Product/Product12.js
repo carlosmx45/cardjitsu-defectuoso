@@ -22,9 +22,7 @@ function Product12({ id, title, color, potencia, price, image }) {
                                 <Text as="i">Edicion especial de CMX45.</Text>
                                 <Text>Tipo: Fuego, Potencia: 45.</Text>
                                 <HStack>
-                                    <Button w="xs" size="sm" colorScheme="green">
-                                        Compra Puta!
-                                    </Button>
+                                    <Button w="xs" size="sm" colorScheme="green"><a href="/product/end" className="Text">Comprar Ahora</a></Button>
                                     <Button w="xs" size="sm">
                                         Comparte Puta!
                                     </Button>
